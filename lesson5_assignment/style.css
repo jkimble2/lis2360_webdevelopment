@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document created by Jake Kimble*/
+/* CSS Document completed 3/24/2019*/
+
+body {
+	font-family: "Verdana", Times, serif;
+	font-size: 14px;
+	line-height: 1.8em;
+	color: #FFFFFF;
+	background-color: #242424;
+	padding: 0 45px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+h1 {
+	font-size: 30px;
+	padding: 6px 0;
+	font-variant: small-caps;
+	letter-spacing: .3em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 25px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #2C8EFF;
+}
+h3 {
+	font-size: 19px;
+	letter-spacing: 0.1em;
+	border-bottom-width: 1px;
+	border-top-style: groove;
+	border-top-color: #2C8EFF;
+	border-bottom-style: groove;
+	border-bottom-color: #2C8EFF;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bolder;
+	color: #2C8EFF;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bolder;
+	color: #2C8EFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #82D0FF;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 15px;
+}
+ol {
+	margin-left: 20px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: double #2C8EFF 4px;
+}
+td {
+	padding: 6px;
+	border: solid #2C8EFF 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #999938;
+	text-align: center;
+	padding: 6px;
+	border: double #999933 4px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: groove #2C8EFF 1px;
+}
+
+img {
+	border: double #2C8EFF 4px;
+
+}
+iframe {
+	border: double #2C8EFF 4px;
+	padding: 2px;
+	margin: 2px;
+}
+
