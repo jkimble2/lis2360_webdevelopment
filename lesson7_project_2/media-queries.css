@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Created By Jake Kimble 4/18/2019 */
+/* --------------------------- HTML TAG STYLES ----------------------------- */
+@media screen and (max-width: 1060px) {
+    .container {
+        width: 90%; 
+    }
+    .half_container { /* provides a two column presentation */
+     width: 80%;
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+ 
+    }
+    #menu li a.button {
+	/* this padding defines the size of the buttons */
+	padding: 20px 75px; 
+    }
+    iframe{
+        width: 100%;
+    }
+    #title-page{
+         width: 100%;
+        padding-top: 100px; 
+    }
+    #splash {
+            height: 748px;
+            background-size: 1060px;
+    }
+    p{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #menu li a.button {
+	/* this padding defines the size of the buttons */
+	padding: 20px 32px; 
+    }
+    #title-page{
+         width: 100%;
+        padding-top: 50px; 
+    }
+    #splash {
+            height: 542px;
+            background-size: 767px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ul#menu li a.button {
+	/* this padding defines the size of the buttons */
+	padding: 10px;
+    font-size: 0.9em;
+    }
+    #title-page{
+         width: 100%;
+        margin-top: 60px; 
+    }
+    #splash {
+            height: 340px;
+            background-size: 480px;
+    }
+}
+
